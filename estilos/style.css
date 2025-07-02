@@ -13,11 +13,11 @@ html, body{
 
 body{
     background: url(../imagens/telanova.jpg) no-repeat top center;
-    background-size: cover;background-attachment: fixed;
+    background-size: cover;background-attachment: scroll;
 }
 
 main{
-    position: relative;
+    position: static;
     height: 100vh;   
 }
 
@@ -45,6 +45,7 @@ section#redes-sociais{
     text-align: right;
 }
 section#redes-sociais img{
+    position: static;
     width: 35px;
     margin: 8px;
     border-radius: 50%;
